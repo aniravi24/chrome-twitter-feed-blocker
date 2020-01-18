@@ -1,0 +1,22 @@
+{
+  "name": "Twitter feed blocker",
+  "version": "1.0",
+  "description": "Blocks twitter",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/home"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/512.png",
+      "24": "images/512.png",
+      "32": "images/512.png",
+      "128": "images/512.png"
+    },
+    "default_title": "Twitter feed blocker"
+  },
+  "manifest_version": 2
+}
