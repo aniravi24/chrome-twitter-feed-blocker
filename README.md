@@ -13,7 +13,7 @@ Basic and hacky chrome extension to block your Twitter feed. I don't take credit
 Instructions copied verbatim from https://developer.chrome.com/extensions/getstarted
 
 # Usage
-Just use your browser as normal. The extension has a blue "T" logo (see the `images/` directory. Icon was generated with <https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html>.
+Just use your browser as normal. The extension has a blue "T" logo (see the `images/` directory). Icon was generated with <https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html>.
 
 # Credits
 Code is almost verbatim from these three sources:  
