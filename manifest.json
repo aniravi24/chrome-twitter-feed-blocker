@@ -4,9 +4,8 @@
   "description": "Blocks twitter",
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/home"],
-      "js": ["content_script.js"],
-      "run_at": "document_end"
+      "matches": ["https://twitter.com/", "https://twitter.com/home"],
+      "js": ["content_script.js"]
     }
   ],
   "browser_action": {
